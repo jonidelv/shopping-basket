@@ -5,6 +5,7 @@
   "author": "jonidelv",
   "dependencies": {
     "dom-to-image": "^2.5.2",
+    "gh-pages": "^1.0.0",
     "prop-types": "^15.5.0",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
@@ -40,8 +41,11 @@
     "eject": "react-scripts eject",
     "lint": "eslint 'src/**/*.{js}'",
     "precommit": "npm run lint",
-    "generate": "plop --plopfile generators/index.js"
+    "generate": "plop --plopfile generators/index.js",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
+  "homepage": "https://jonidelv.github.io/shopping-basket",
   "eslintConfig": {
     "extends": "react-app",
     "rules": {
