@@ -1,0 +1,17 @@
+export default {
+  title:                         '#f0dccd',
+  white:                         '#fff',
+  black:                         '#000',
+  shadow:                        'rgba(255, 255, 255, 0.25)',
+  header1:                       '#5f391c',
+  header2:                       '#865127',
+  priceBackground:               'rgba(254, 242, 234, .65)',
+  priceHover:                    'rgba(255, 255, 255, 0.3)',
+  brown:                         '#523118',
+  lightBrown:                    'rgba(82, 49, 24, .2)',
+  red:                           '#ff0000',
+  green:                         '#7fb034',
+  darkGreen:                     '#334715',
+  green2:                        '#a0ce5a',
+  receiptBg:                     '#F1D5A5',
+}
