@@ -43,7 +43,7 @@ class ShoppingBasketContainer extends React.Component {
     domtoimage.toPng(document.getElementById('receipt'))
       .then((dataUrl) => {
         var link = document.createElement('a')
-        link.download = 'my-receipt.png.png'
+        link.download = 'my-receipt.png'
         link.href = dataUrl
         link.click()
         this.clearBasket()
